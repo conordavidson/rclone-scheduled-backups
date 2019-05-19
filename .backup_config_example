@@ -1,0 +1,17 @@
+# DEST_FILEPATH=BACKUPS/cpu
+# RCLONE_REMOTE=gdrive
+
+# exclude
+- node_modules/**
+- .DS_Store
+
+# include
++ projects/**
++ media/**
+- media/watch/**
++ scripts/**
++ work/**
++ portfolio/**
+
+# exclude everything else
+- *
